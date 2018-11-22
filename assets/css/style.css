@@ -1,0 +1,33 @@
+body {
+    background-color: black;
+    color: rgba(255,255,255,0.8);
+}
+#landing{
+    height: 100vh;
+    background-image: url("../images/joanna-kosinska-483605-unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    z-index: -1;
+}
+#mainText{
+    margin-top: 30vh;
+}
+.parallax-container {
+    height: 150;
+  }
+.row .col.s12 {
+    margin-top: 100px;
+}
+
+.row.center {
+    margin-top: 100;
+}
+.row .col.l3 {
+    width: 5%;
+    margin-left: 5%;
+}
+.activator {
+    size: 150 150;
+}
