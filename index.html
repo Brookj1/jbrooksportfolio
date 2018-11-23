@@ -15,6 +15,8 @@
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <!-- Compiled and minified Materialize CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- Google font -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
 </head>
 
 <!-- Navbar -->
@@ -22,7 +24,7 @@
     <nav class="black">
         <div class="container">
             <div class="nav-wrapper">
-                <a href="#" class="brand-logo">My Portfolio</a>
+                <a href="#" class="brand-logo">Jamie Brooks</a>
                 <ul class="right hide-on-med-and-down" id="navList">
                     <li><a href="#landing">Home</a></li>
                     <li><a href="#intro">About Me</a></li>
@@ -57,25 +59,26 @@
             <li><a class="btn-floating blue-grey lighten-1"><i class="fa fa-linkedin"></i></a></li>
         </ul>
     </div>
-
-    <!-- Intro and service -->
+    <!-- Intro-->
     <div id="intro" class="section black">
         <div class="container">
             <div class="row">
-                <!-- <div class="col s12">
-                <h4 class="center header">A Little Bit About Me</h4>
-                </div> -->
+                <div class="col s12">
+                    <h4 class="center header"></h4>
+                </div>
             </div>
-            <!-- <div class="row center"> -->
+            <!-- <div class="row center"> -->   
             <div class="col s12 m12 l3">
-                <img class="img left" src="assets/images/IMG_3177-Edit.jpg">
+                <img class="circle responsive-img" src="assets/images/IMG_3177-Edit.jpg">
             </div>
             <div class="col s12 m12 offset-l1 l8 ">
-                <!-- <h5 class="center">ABOUT ME</h5> -->
+                <h5 class="center"></h5>
                 <h4>About Me</h4>
                 <p>
-                    After choosing to believe that you have the power to affect positive change under any circumstances, I
-                    dove headfirst into higher education as a full-time student while also a full-time employee and single
+                    After choosing to believe that you have the power to affect positive change under any
+                    circumstances, I
+                    dove headfirst into higher education as a full-time student while also a full-time employee and
+                    single
                     parent. During this experience I began to understand how I could use my
                     varied background and creativity to solve problems
                     that could positively affect strategic initiatives. Using this newfound knowledge I earned a BS in
@@ -92,7 +95,8 @@
                 <p>
                     When I'm not learning and improving my technical skills, I love spending time with my teenage sons,
                     boyfriend, and Great Dane. Born and raised in Denver, Colorado, I love the outdoors. I also enjoy
-                    reading (I intellectually devour books), dabble in photography, and continuously curate my list of places around the world I
+                    reading (I intellectually devour books), dabble in photography, and continuously curate my list of
+                    places around the world I
                     would like to visit.
                 </p>
             </div>
@@ -117,6 +121,7 @@
     <!--Work-->
     <div class="section" style="background-color: #141414;" id="work">
         <div class="container">
+            <br>
             <h3 class="header text_b center">My Projects </h3>
             <div class="row">
                 <div class="col s12 m12 l4">
@@ -203,6 +208,19 @@
             </div>
         </div>
     </div>
+    <!-- Second Parallax-->
+    <div id="p1" class="parallax-container">
+        <div class="parallax"><img src="assets/images/burgundy-1031209_1920.jpg">
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col s12 center white-text">
+                    <h6 class="p3Quote">
+                    </h6>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- Skill Sets -->
     <div class="section" style="background-color: #101010;" id="skillsets">
@@ -214,19 +232,89 @@
             </div>
             <div class="row center">
                 <div class="col s12 m12 l3">
-                    <img class="responsive-img" src="img/cpp.png">
+                    <img class="responsive-img" src="assets/images/HTML5 200x.png">
                 </div>
                 <div class="col s12 m12 l3">
-                    <img class="responsive-img" src="img/node.png">
+                    <img class="responsive-img" src="assets/images/CSS 200x.png">
                 </div>
                 <div class="col s12 m12 l3">
-                    <img class="responsive-img" src="img/py.png">
+                    <img class="responsive-img" src="assets/images/JS new 200x.png">
                 </div>
                 <div class="col s12 m12 l3">
-                    <img class="responsive-img" src="img/shell.png">
+                    <img class="responsive-img" src="assets/images/MERN.jpg">
+                </div>
+                <div class="col s12 m12 l3">
+                    <img class="responsive-img" src="assets/images/JQ 200x.png">
                 </div>
             </div>
         </div>
+    </div>
+    <!-- Third Parallax-->
+    <div id="p1" class="parallax-container">
+        <div class="parallax"><img src="assets/images/light-bulbs-1875268.jpg">
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col s12 center white-text">
+                    <!-- <h6 class="p2Quote">
+                    </h6> -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Contact Me -->
+    <div class="section" style="background-color: #101010;" id="contact">
+        <div class="container">
+            <div class="row">
+                <h3 class="center white-text">
+                    Contact Me!
+                </h3>
+            </div>
+            <div class="row">
+                <form class="col s12">
+                    <div class="row">
+                        <div class="input-field col s6">
+                            <input placeholder="Placeholder" id="first_name" type="text" class="validate">
+                            <label for="first_name">First Name</label>
+                        </div>
+                        <div class="input-field col s6">
+                            <input id="last_name" type="text" class="validate">
+                            <label for="last_name">Last Name</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <input disabled value="I am not editable" id="disabled" type="text" class="validate">
+                            <label for="disabled">Disabled</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <input id="password" type="password" class="validate">
+                            <label for="password">Password</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <input id="email" type="email" class="validate">
+                            <label for="email">Email</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col s12">
+                            This is an inline input field:
+                            <div class="input-field inline">
+                                <input id="email_inline" type="email" class="validate">
+                                <label for="email_inline">Email</label>
+                                <span class="helper-text" data-error="wrong" data-success="right">Helper text</span>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+    </div>
     </div>
     <!-- Footer -->
     <footer class="section page-footer black">

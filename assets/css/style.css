@@ -1,6 +1,10 @@
 body {
     background-color: black;
-    color: rgba(255, 255, 255, 0.925);
+    color: rgb(255,250,240);
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 14pt;
+    font-kerning: auto;
+    border-color: black;
 }
 #landing{
     height: 100vh;
@@ -17,29 +21,31 @@ body {
 .parallax-container {
     clear: both;
     height: 150px;
-  }
-/* .row .col.s12 {
-    margin-top: 25%;
-} */
-
+}
 .row.center {
     margin-top: 100;
 }
-
 .img.left {
     margin-right: 5%;
     margin-bottom: 10%;
 }
-
 .card-image{
     height: 200px; 
     overflow: hidden;
 }
-
-/* .activator {
-    height: 50%;
-} */
-
 .p1Quote {
     margin-top: 20%;
+    font-size: 30px;
+    text-shadow: 1px 1px black;
+}
+.form {
+    color: rgb(255,250,240);
+}
+#mainText.center {
+    text-shadow: 2px 2px black;
+
+}
+.center {
+    text-shadow: 2px 2px black;
+
 }
